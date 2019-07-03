@@ -528,7 +528,7 @@ namespace QuantConnect.Algorithm
             var configs = SubscriptionManager.SubscriptionDataConfigService
                 .GetSubscriptionDataConfigs(security.Symbol);
 
-            if (!configs.Any() && configs.DataNormalizationMode() != DataNormalizationMode.Raw)
+            if (configs.Any() && configs.DataNormalizationMode() != DataNormalizationMode.Raw)
             {
                 Debug($"Warning: The {security.Symbol.Value} equity security was set the raw price normalization mode to work with options.");
                 configs.SetDataNormalizationMode(DataNormalizationMode.Raw);
