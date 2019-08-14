@@ -14,6 +14,9 @@
 */
 
 using System.Collections.Generic;
+using Accord.Math;
+using Accord.Math.Optimization;
+using Accord.Statistics;
 
 namespace QuantConnect.Algorithm.Framework.Portfolio
 {

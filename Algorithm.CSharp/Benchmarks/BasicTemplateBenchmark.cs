@@ -27,8 +27,8 @@ namespace QuantConnect.Algorithm.CSharp.Benchmarks
     {
         public override void Initialize()
         {
-            SetStartDate(2000, 01, 01);
-            SetEndDate(2017, 01, 01);
+            SetStartDate(2013, 10, 04);
+            SetEndDate(2013, 10, 11);
             SetBenchmark(dt => 1m);
             AddEquity("SPY");
         }

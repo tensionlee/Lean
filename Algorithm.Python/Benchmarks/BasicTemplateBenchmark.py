@@ -30,7 +30,7 @@ from QuantConnect.Data import *
 class BasicTemplateBenchmark(QCAlgorithm):
 
     def Initialize(self):
-        self.SetStartDate(2000, 1, 1)
+        self.SetStartDate(2016, 1, 1)
         self.SetEndDate(2017, 1, 1)    
         self.SetBenchmark(lambda x: 1)
         self.AddEquity("SPY")

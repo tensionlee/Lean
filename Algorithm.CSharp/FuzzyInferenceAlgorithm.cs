@@ -41,7 +41,7 @@ namespace QuantConnect.Algorithm.CSharp
         // Without this, consuming projects would need to hard reference the Accord dlls,
         // which is less than perfect. This seems to be the better of two evils
         //
-        Accord.Math.Matrix3x3 _matrix = new Accord.Math.Matrix3x3();
+        //Accord.Math.Matrix3x3 _matrix = new Accord.Math.Matrix3x3();
 
         //Fuzzy Engine
         private FuzzyEngine _engine;

@@ -128,7 +128,6 @@
     <Compile Include="AddRiskManagementAlgorithm.cs" />
     <Compile Include="AddUniverseSelectionModelAlgorithm.cs" />
     <Compile Include="AddUniverseSelectionModelCoarseAlgorithm.cs" />
-    <Compile Include="Alphas\GasAndCrudeOilEnergyCorrelationAlpha.cs" />
     <Compile Include="Alphas\GreenblattMagicFormulaAlpha.cs" />
     <Compile Include="Alphas\IntradayReversalCurrencyMarketsAlpha.cs" />
     <Compile Include="Alphas\ShareClassMeanReversionAlpha.cs" />

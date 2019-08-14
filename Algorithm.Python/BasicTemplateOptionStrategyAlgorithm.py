@@ -44,7 +44,7 @@ class BasicTemplateOptionStrategyAlgorithm(QCAlgorithm):
         # Add assets you'd like to see
         option = self.AddOption("GOOG")
         self.option_symbol = option.Symbol
-
+        print("=========", self.option_symbol ,"=================")
         # set our strike/expiry filter for this option chain
         option.SetFilter(-2, +2, timedelta(0), timedelta(180))
 
@@ -67,3 +67,4 @@ class BasicTemplateOptionStrategyAlgorithm(QCAlgorithm):
 
     def OnOrderEvent(self, orderEvent):
         self.Log(str(orderEvent))
+        print("=========", self.option_symbol ,"=================")
